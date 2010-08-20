@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Driver based class to calculate holidays in the Netherlands
 Summary(pl.UTF-8):	%{_pearname} - klasa do obliczania dat świąt holenderskich
 Name:		php-pear-%{_pearname}
-Version:	0.1.1
+Version:	0.1.2
 Release:	1
 License:	PHP License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8e430cdcfc30671c95b4a0d510136a40
+# Source0-md5:	94db8df90941c15d31a021e8657fbab6
 URL:		http://pear.php.net/package/Date_Holidays_Netherlands/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -39,8 +39,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
